@@ -34,6 +34,10 @@ func main() {
 	if err = master.InitConfig(confFile); err != nil {
 		goto ERR
 	}
+	// 任务管理器
+	if err = master.InitJobManager(); err != nil {
+		goto ERR
+	}
 	// 启动api服务
 	if err = master.InitApiServer(); err != nil {
 		goto ERR
