@@ -10,6 +10,7 @@ require (
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/google/uuid v1.1.1 // indirect
 	go.etcd.io/etcd v3.3.22+incompatible // indirect
+	go.mongodb.org/mongo-driver v1.3.5 // indirect
 	go.uber.org/zap v1.15.0 // indirect
 	google.golang.org/grpc v1.30.0 // indirect
 )
